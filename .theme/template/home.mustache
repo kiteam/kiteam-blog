@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> head}}
+    <title>{{blog.title}}</title>
+</head>
+
+<body>
+
+<div class="container">
+    {{> header}}
+
+    <!-- Jumbotron -->
+    <div class="jumbotron" style="border-bottom: 1px solid #EEE;">
+        <h1>{{blog.description}}</h1>
+        <p class="lead">简单易用的开源的团队协作工具，对接Git Commit， 支持多种离线通知, 支持WebHook, 开放API</p>
+        <p><a role="button" href="/post/getting-started-with-silky.html" class="btn btn-lg btn-success">立即获取</a></p>
+    </div>
+
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-4">
+            <h2>功能</h2>
+            <p>任务拆分, 对接Git Commit, 周报生成, 多版本, 任务分类, 多人协作, 评论, 素材, 讨论, 多级权限, 团队, 你还想要什么...</p>
+            <p><a class="btn btn-success" href="https://github.com/kiteam/" target="_blank" role="button">使用指南 &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <h2>技术</h2>
+            <p>Node.js, 前后端彻底分离, RestFul, CoffeeScript, AngularJS, WebPack, Knex, MySql, WebSocket, iOS, 你还想知道些什么...</p>
+            <p><a class="btn btn-success" href="https://github.com/kiteam/" target="_blank" role="button">技术架构 &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <h2>开源</h2>
+            <p>
+                Kiteam完全开源, 基于MIT开源协议, 你可以自由地使用修改, 不用担心任何的法律风险，如果你有更好的想法，也欢提交PR...
+            </p>
+            <p><a class="btn btn-success" href="https://github.com/kiteam/" target="_blank" role="button">Fork on Github &raquo;</a></p>
+        </div>
+    </div>
+
+    <!-- Site footer -->
+    {{> footer}}
+</div> <!-- /container -->
+
+</body>
+</html>
