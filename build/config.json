@@ -1,0 +1,14 @@
+{
+  "blog":{
+    "title": "Kiteam官方博客",
+    "host": "http://kiteam.org"
+  },
+  "theme": "./theme",
+  "content": "./content",
+  "target": "./build",
+  "scripts":{
+    "end_head": ""
+  },
+  "ignore":[],
+  "page_size": 10
+}
